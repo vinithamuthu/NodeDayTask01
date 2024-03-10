@@ -7,7 +7,7 @@ const PORT = 4000;  // http://localhost:4000/grtProducts
 
 app.get('/', (req, res) => {
   // res.status(200).json({ message: 'hai my dear team, we will become a FSD Developer' }) 
-  res.status(200).send(`<div style = "background-color:red; color:white " > <h1>   </h1> </div>`)
+  res.status(200).send(`<div style = "background-color:red; color:white " > <h1> To Create txt file enter , /write  in the URL  </h1> <br> <h2>To Retrive txt file enter ,/read/(hear enter output of write file name its like time -> 10-11-2024-18-11-24  ) in the URL </h2> </div>`)
 })
 
 app.get('/get-data', (req, res) => {
